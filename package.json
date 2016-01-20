@@ -1,7 +1,7 @@
 {
-  "name": "my-awesome-bot",
+  "name": "Suburban-Dictionary",
   "version": "1.0.0",
-  "description": "The awesomest bot evar.",
+  "description": "Slack bot for Urban Dictionary definitions.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,18 +15,19 @@
     "slack",
     "bot"
   ],
-  "author": "D.E. Goodman-Wilson",
+  "author": "Garrett A. Miller",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DEGoodmanWilson/botkit-heroku/issues"
+    "url": "https://github.com/heyitsgarrett/turnkey-botkit/issues"
   },
-  "homepage": "https://github.com/DEGoodmanWilson/botkit-heroku#readme",
+  "homepage": "https://github.com/heyitsgarrett/turnkey-botkit#readme",
   "engines": {
     "node": "5.1.1"
   },
   "dependencies": {
     "botkit": "0.0.5",
     "botkit-storage-mongo": "^1.0.2",
-    "mongodb": "^1.4.39"
+    "mongodb": "^1.4.39",
+    "urban": "^0.3.0"
   }
 }
